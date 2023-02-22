@@ -1,0 +1,8 @@
+import SwiftUI
+
+@main
+struct TaroAIApp: App {
+    static let apiKey = ""
+
+    @StateObject var vm = ChatGPTViewModel
+}
